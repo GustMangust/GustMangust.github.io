@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Shelter</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="anchor.js" defer></script>
     <link media="(min-width: 1221px)" rel="stylesheet" href="styles1221px.css">
     <link media="(max-width: 1220px)" rel="stylesheet" href="styles2.css">
     <link media="(max-width: 500px)" rel="stylesheet" href="styles500px.css">
@@ -18,19 +20,19 @@
             <div class="logo__title">Cozy House</div>
             <div class="logo__subtitle">Shelter for pets in Boston</div>
           </div>
-          <nav class="menu">
+          <nav class="menu" id="menu">
             <ul class="list">
               <li class="list__item">
-                <a class="list__link list__link_active" href="">About the shelter</a>
+                <a class="list__link" href="#about">About the shelter</a>
               </li>
               <li class="list__item">
-                <a class="list__link list__link_disabled" href="">Our pets</a>
+                <a class="list__link"  href="#pets">Our pets</a>
               </li>
               <li class="list__item">
-                <a class="list__link list__link_disabled" href="">Help the shelter</a>
+                <a class="list__link" href="#help">Help the shelter</a>
               </li>
               <li class="list__item">
-                <a class="list__link list__link_disabled" href="">Contacts</a>
+                <a class="list__link" href="#contacts">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -55,7 +57,7 @@
     </div>
 
     <section class="about">
-      <div class="wrapper">
+      <div class="wrapper" id="about">
         <div class="about-container">
           <img class="puppy_about_img" src="img/about-pets.svg" alt="Cat and dog" />
           <div class="about-content">
@@ -83,7 +85,7 @@
     </section>
 
     <section class="pets">
-      <div class="wrapper">
+      <div class="wrapper" id="pets">
         <div class="pets-conteiner">
           <h3 class="pets__title">Our friends who are looking for a house</h3>
           <div class="pets-content">
@@ -111,7 +113,7 @@
     </section>
 
     <section class="help">
-    <div class="wrapper">
+    <div class="wrapper" id="help">
         <div class="pets-help-conteiner">
           <h3 class="help__title">How you can help our shelter</h3>
           <div class="pets-content-footer">
@@ -181,8 +183,7 @@
       </div>
     </section>
     <section class="footer">
-    
-      <div class="wrapper">
+      <div class="wrapper" id="contacts"> 
         <div class = "footer-conteiner">
           <div class="content">
             <h2 class="content-title">For questions<br> and suggestions</h2>
