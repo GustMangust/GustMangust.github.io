@@ -88,7 +88,7 @@
     .wrapper {
       display: flex;
       margin: 0 auto;
-      max-width: 85%;
+      max-width: 79%;
       justify-content: space-between;
     }
     
@@ -116,7 +116,7 @@
     .list__link {
       font-family: Arial;
       font-size: 0.77rem;
-      line-height: 130%;
+      line-height: 160%;
       color: #fafafa;
       text-decoration: none;
     }
