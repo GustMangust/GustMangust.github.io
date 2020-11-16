@@ -6,7 +6,6 @@
   font-family: "Arial";
   src: url("fonts/ArialCE.ttf") format("truetype");
 }
- @media screen and (min-width: 1221px){
   a {
     text-decoration: none;
     color: #292929;
@@ -387,4 +386,3 @@
   }
   
   
- }
