@@ -124,13 +124,6 @@
     color: #fafafa;
   }
   
-  .list__link_active {
-    border-bottom: solid 3px #f1cdb3;
-  }
-  
-  .list__link_disabled {
-    color: #cdcdcd;
-  }
   
   .main {
   }

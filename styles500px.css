@@ -115,13 +115,6 @@
       color: #fafafa;
     }
     
-    .list__link_active {
-      border-bottom: solid 3px #f1cdb3;
-    }
-    
-    .list__link_disabled {
-      color: #cdcdcd;
-    }
     
     .main {
     }
@@ -256,13 +249,15 @@
     .arrow {
       border-radius: 50%;
       border: 2px solid #f1cdb3;
+      padding: 23px 19px;
     }
     .slider{
       position: relative;
       overflow: hidden;
-      height: 100%;
-      width: 100%;
+      height: 90%;
+      width: 90%;
       max-width: 100%;
+      margin:0,30%,0,30%;
     }
     .slider__wrapper{
       display: flex;
