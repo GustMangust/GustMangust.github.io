@@ -230,18 +230,16 @@
   
   .pets {
     background-color: #f6f6f6;
-    min-height: 100vh;
+    min-height: 70vh;
   }
   
   .pets-conteiner {
     padding: 7% 0 10%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #f6f6f6;
-    max-width: 100%;
+      margin: 0 auto;
+      display: block;
+      background-color: #f6f6f6;
+      width: 100%;
+      max-width: 100%;
   }
   
   .pets__title {
@@ -258,42 +256,67 @@
   
   .pets-content {
     display: flex;
-    align-items: center;
-    width: 100%;
-    margin-top: 5%;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 5%;
   }
   .arrow {
     border-radius: 50%;
-  
     border: 2px solid #f1cdb3;
     padding: 23px 19px;
   }
   
+  .slider{
+    position: relative;
+    overflow: hidden;
+    height: 50%;
+    width: 40%;
+    max-width: 60%;
+  }
+  .slider__wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+  }
   .arrow:hover {
     background-color: #fddcc4;
   }
-  .polosa{
-    display: flex;
-  }
   .pet {
-    display: block;
-    background-color: #fafafa;
-    min-height: 435px;
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    flex-direction: column;
     align-items: center;
-    margin: 0 45px;
-    padding-bottom: 2%;
+    background-color: #fafafa;
+    padding-bottom: 2%; 
   }
   
   .pets__name {
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.06em;
     color: #545454;
     margin: 10%;
   }
+  .slider .pet {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  @keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
   
   
   
