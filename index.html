@@ -8,7 +8,7 @@
     <link media="(min-width: 1221px)" rel="stylesheet" href="styles1221px.css">
     <link media="(max-width: 1220px)" rel="stylesheet" href="styles2.css">
     <link media="(max-width: 500px)" rel="stylesheet" href="styles500px.css">
-    <script scr="script.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="welcome">
@@ -87,12 +87,13 @@
         <div class="pets-conteiner">
           <h3 class="pets__title">Our friends who are looking for a house</h3>
           <div class="pets-content">
-            <img class="arrow arrow-back" src="img/Arrow.svg" />
-            <div class="polosa">
-              <div class="pet">
-                <img class="pets__media" src="img/pets-katrine.svg" />
-                <h4 class="pets__name">Katrine</h4>
-              </div>
+            <img class="arrow arrow-back" onclick="minusSlide()" src="img/Arrow.svg">
+            <div class="slider">
+              <div class="slider__wrapper">
+                <div class="pet">
+                  <img class="pets__media" src="img/pets-katrine.svg" />
+                  <h4 class="pets__name">Katrine</h4>
+                </div>
               <div class="pet">
                 <img class="pets__media" src="img/pets-jennifer.svg" />
                 <h4 class="pets__name">Jennifer</h4>
@@ -101,12 +102,10 @@
                 <img class="pets__media" src="img/pets-woody.svg" />
                 <h4 class="pets__name">Woody</h4>
               </div>
+              </div>
             </div>
-            <img class="arrow arrow-forward" src="img/Arrow.svg" />
+            <img class="arrow arrow-forward" onclick="plusSlide()" src="img/Arrow.svg">
           </div>
-          <button class="button button-pets">
-            <a href="">Get to know the rest</a>
-          </button>
         </div>
       </div>
     </section>
