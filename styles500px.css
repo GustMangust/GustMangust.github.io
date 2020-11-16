@@ -245,11 +245,7 @@
       font-weight: normal;
       margin: 0 auto;
     }
-    .pets__media{
-      height: 70%;
-      width: 70%;
-
-    }
+  
     .pets-content {
       display: flex;
       justify-content: space-between;
@@ -265,8 +261,8 @@
       position: relative;
       overflow: hidden;
       height: 100%;
-      width: 90%;
-      max-width: 60%;
+      width: 100%;
+      max-width: 100%;
     }
     .slider__wrapper{
       display: flex;
