@@ -47,15 +47,6 @@
     min-width: 37%;
     margin-top: 5%;
   }
-  .hero__title {
-    font-family: Georgia;
-    font-size: 44px;
-    font-weight: lighter;
-    line-height: 130%;
-    color: #ffffff;
-    max-width: 70%;
-    text-align: center;
-  }
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -146,6 +137,7 @@
     max-width: 70%;
     margin-top: 21vh;
     margin-bottom: 5vh;
+    text-align: center;
   }
   
   .hero__subtitle {
@@ -373,13 +365,13 @@
   }
   .pets-content-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 5%;
     margin-top: 5%;
   }
   .pets-content-footer1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
     
@@ -393,18 +385,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0%;
     margin-bottom: 3%;
   }
   .help-item__title{
     font-family: Georgia;
     font-weight: normal;
     letter-spacing: 0.06em;
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: #545454;
     line-height: 100%;
     text-align: center;
-    margin-top: 1.5vw;
+    margin-top: 1.7vw;
   }
   .help-item__media{
     height: 4vw;

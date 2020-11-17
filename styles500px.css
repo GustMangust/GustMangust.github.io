@@ -137,6 +137,7 @@
       max-width: 85%;
       margin-top: 21vh;
       margin-bottom: 5vh;
+      text-align: center;
     }
     
     .hero__subtitle {
@@ -316,12 +317,12 @@
     .help__title {
       font-family: Georgia;
       font-weight: normal;
-      font-size: 3.5vw;
+      font-size: 5vw;
       line-height: 130%;
       text-align: center;
       letter-spacing: 0.06em;
       color: #545454;
-      width: 25%;
+      width: 40%;
       margin: auto;
     }
     
@@ -363,44 +364,39 @@
       margin: 0 auto;
       width: 100%;
     }
-    .pets-content-footer{
+    .content-footer{
       display: flex;
-      justify-content: space-between;
-      margin-bottom: 5%;
-      margin-top: 5%;
-    }
-    .pets-content-footer1{
-      display: flex;
-      justify-content: space-between;
-      margin-left: 5%;
-      margin-right: 5%;
-      
+      flex-flow: column wrap;
+      align-items: center;
+
     }
     .help-item{
       display: flex;
       align-items: center;
+      width: 50%;
       flex-direction: column;
+      padding-top:5%;
     }
     .help-item1{
       display: flex;
-      flex-direction: column;
       align-items: center;
-      margin-top: 0%;
-      margin-bottom: 3%;
+      width: 50%;
+      flex-direction: column;
+      padding-top:5%;
     }
     .help-item__title{
       font-family: Georgia;
       font-weight: normal;
       letter-spacing: 0.06em;
-      font-size: 2.5vw;
+      font-size: 3vw;
       color: #545454;
       line-height: 130%;
       text-align: center;
       margin-top: 1.7vw;
     }
     .help-item__media{
-      height: 6vw;
-      width: 6vw;
+      height: 8vw;
+      width: 8vw;
     }
     .content-title{
       font-family: Georgia;
