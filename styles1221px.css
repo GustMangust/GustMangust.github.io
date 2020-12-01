@@ -310,6 +310,7 @@
     }
     
     .phone {
+      display: inline-flex;
       padding: 10px 10px;
       font-family: Georgia;
       font-size: 20px;
@@ -317,8 +318,21 @@
       letter-spacing: 0.05em;
       color: #545454;
     }
-    
+    .credit-card__img{
+      word-wrap: break-word;
+      width: 2vw;
+    }
+    .credit-card__title{
+      margin-left:5px;
+      font-size: 18px;
+    }
     .donation-container {
+      display: flex;
+      width: 80%;
+      margin:0 auto;
+      padding-top: 80px;
+      padding-bottom: 100px;
+      justify-content: space-between;
       min-width: 505px;
     }
     .pets-help-conteiner{
@@ -404,5 +418,8 @@
       letter-spacing: 0.05em;
       font-weight: normal;
       margin-left: 5%;
+    }
+    .footer-all{
+      width: 100%;
     }
     

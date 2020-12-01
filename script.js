@@ -32,10 +32,6 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "flex";
 }
-
-
-
-
 var last;
 var counter=0;
 $(function() {

@@ -195,7 +195,7 @@
     }
     .about__title {
       font-family: Georgia;
-      font-size: 35px;
+      font-size: 30px;
       line-height: 130%;
       letter-spacing: 0.06em;
       color: #545454;
@@ -204,14 +204,15 @@
     
     .about__subtitle {
       font-family: Arial;
-      font-size: 15px;
+      font-size: 14px;
       line-height: 160%;
       color: #4c4c4c;
       margin-top: 6%;
     }
-    .about-content {
-      margin-top: 2%;
-      margin-left: 14%;
+    .about-content { /**/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     
     .pets {
@@ -335,27 +336,44 @@
     .donation {
       background-color: #f6f6f6;
     }
-    
-    .donation__subtitle {
+    .donation-dog__img{
+      width: 100%;
+    }
+    .donation__subtitle { /**/
       font-family: Arial;
       font-style: italic;
       font-weight: normal;
       font-size: 12px;
+      text-align: justify;
+      margin-top: 3%;
+      width: 250px;
       line-height: 18px;
       color: #b2b2b2;
     }
     
-    .phone {
+    .phone { /**/
+      display: inline-flex;
       padding: 10px 10px;
       font-family: Georgia;
       font-size: 20px;
+      margin-top: 1%;
       line-height: 110%;
       letter-spacing: 0.05em;
       color: #545454;
     }
-    
-    .donation-container {
-      min-width: 505px;
+    .credit-card__img{
+    }
+    .credit-card__title{
+      margin-left:3px;
+      font-size:15px;
+    }
+    .donation-container { /**/
+      display: flex;
+      flex-direction: column;
+      margin:0 auto;
+      padding-top: 80px;
+      padding-bottom: 100px;
+      justify-content: space-between;
     }
     .pets-help-conteiner{
       display: block;
@@ -388,15 +406,15 @@
       font-family: Georgia;
       font-weight: normal;
       letter-spacing: 0.06em;
-      font-size: 3vw;
+      font-size: 17px;
       color: #545454;
       line-height: 130%;
       text-align: center;
       margin-top: 1.7vw;
     }
     .help-item__media{
-      height: 8vw;
-      width: 8vw;
+      height: 60px;
+      width: 60px;
     }
     .content-title{
       font-family: Georgia;
