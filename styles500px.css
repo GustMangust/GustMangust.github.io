@@ -315,12 +315,12 @@
     .help__title {
       font-family: Georgia;
       font-weight: normal;
-      font-size: 33px;
+      font-size: 30px;
       line-height: 130%;
       text-align: center;
       letter-spacing: 0.06em;
       color: #545454;
-      width: 40%;
+      width: 50%;
       margin: auto;
     }
     
