@@ -467,8 +467,3 @@
   .footer-dog__media{
     display: none; 
   }
-  .footer-all{
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }

@@ -424,14 +424,19 @@
     .footer{
       background: linear-gradient(to right,#513D2F,#211F20);
     }
+    .content{
+      margin-top: 15%;
+      width:250px;
+    }
     .location{
-      width:25%;
+      margin-top: 15%;
+      width:250px;
     }
     .footer-conteiner{
-      
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
-      padding:3% 3% 0 3%;
+      padding:3% 3% 0 0;
       width:100%;
     }
     .footer-email{
