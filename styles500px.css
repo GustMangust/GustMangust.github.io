@@ -304,9 +304,6 @@
           opacity: 1
       }
   }
-    
-    
-    
     .arrow-forward {
       transform: rotate(180deg);
     }
@@ -318,7 +315,7 @@
     .help__title {
       font-family: Georgia;
       font-weight: normal;
-      font-size: 5vw;
+      font-size: 33px;
       line-height: 130%;
       text-align: center;
       letter-spacing: 0.06em;
