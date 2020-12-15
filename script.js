@@ -32,6 +32,7 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "flex";
 }
+
 var last;
 var counter=0;
 $(function() {
@@ -39,7 +40,7 @@ $(function() {
     $(".list__link").on('click', function() {
         
         if(counter==0)
-        {  
+        {
             last = $(this);
             $(".list__link").css('text-decoration', 'none');
             $(this).css('border-bottom', 'solid 3px #f1cdb3');
@@ -54,3 +55,12 @@ $(function() {
         }
     });
 });
+
+var xml="<?xml version = '1.0'?>"+
+        "<head>ZooChance</head>"
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(xml,"text/xml");
+var names =xmlDoc.getElementsByTagName("head");
+var title = document.getElementsByTagName("title");
+title[0].innerHTML=names[0].innerHTML;
+
